@@ -1,0 +1,112 @@
+/* tooltip styling. by default the element to be styled is .tooltip  */
+.btn{
+    align-items: center;
+
+
+
+}
+
+
+/* .map {
+
+padding-left: 300px;
+height: 1000px;
+width: 1000px;
+background-color: powderblue;
+} */
+
+.map-tooltip {
+
+    /* pointer-events: none
+ position: absolute
+ font-size: 18px
+ text-align: center
+ background: white
+ padding: 10px 15px
+ z-index: 5
+ height: 30px
+ line-height: 30px
+ margin: 0 auto
+ color: #21669e
+ border-radius: 5px
+ box-shadow: 0 0 0 1px #eee
+ +transform(translateX(-50%))
+ display: none
+ &.active
+   display: block
+ &:after
+   content: ''
+   position: absolute
+   left: 50%
+   top: 100%
+   width: 0
+   height: 0
+   margin-left: -10px
+   border-left: 10px solid transparent
+   border-right: 10px solid transparent
+   border-top: 10px solid white */
+
+  position: absolute;
+  display: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border:#d3d3d3 solid 1px;
+  background: #fff;
+  color: black;
+  font-family: Comfortaa, Verdana;
+  font-size: smaller;
+  padding: 8px;
+  pointer-events:none;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* @import compass
+
+html, body
+  width: 100%
+
+svg{
+  max-width: 100%!important
+  height: auto
+  display: block
+}
+.heyo:hover{
+  fill: #CC2929
+  +transition(0.3s)
+}
+.st5{
+  fill: #21669E
+  cursor: pointer
+}
+.description{
+  pointer-events: none
+  position: absolute
+  font-size: 18px
+  text-align: center
+  background: white
+  padding: 10px 15px
+  z-index: 5
+  height: 30px
+  line-height: 30px
+  margin: 0 auto
+  color: #21669e
+  border-radius: 5px
+  box-shadow: 0 0 0 1px #eee
+  +transform(translateX(-50%))
+  display: none
+  &.active
+    display: block
+  &:after
+    content: ''
+    position: absolute
+    left: 50%
+    top: 100%
+    width: 0
+    height: 0
+    margin-left: -10px
+    border-left: 10px solid transparent
+    border-right: 10px solid transparent
+    border-top: 10px solid white
+} */
